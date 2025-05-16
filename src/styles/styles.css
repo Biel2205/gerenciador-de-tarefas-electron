@@ -53,4 +53,7 @@ li{
     justify-content: space-between;
    
 }
- 
+ .tarefa-cloncluida {
+    color: black;/*cor do texto */
+    text-decoration: line-through;/*texto riscado*/
+ }
