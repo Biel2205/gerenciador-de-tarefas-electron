@@ -3,3 +3,54 @@
     padding: 0; /* Espaçamentos internos */
     box-sizing: border-box; /* Tamanho da caixa */
 }
+body {
+ 
+    font-family: Arial;
+    background-color: #e0d8d8;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+ 
+div {
+    background-color: rgb(16, 97, 97);
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 33px;
+}
+ 
+input {
+    border: 2px solid rgb(226, 25, 193);
+}
+ 
+.add {
+    background-color: rgb(223, 219, 219);
+    font-family: Arial;
+    padding: 5px;
+    border-radius: 23px;
+ 
+}
+ 
+.remover {
+    background-color: rgb(35, 47, 214);
+    font-family: Arial;
+    padding: 5px;
+    border-radius: 23px;
+}
+ 
+ul{
+    margin-top: 25px;
+}
+ 
+li{
+    margin: 25px;
+    font-weight: bold;
+    list-style: none;
+ 
+    display: flex;
+    justify-content: space-between;
+   
+}
+ 
